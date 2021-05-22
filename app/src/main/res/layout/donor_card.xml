@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dummy_user_img"
+            android:layout_margin="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+        <TextView
+            android:id="@+id/textUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:layout_toEndOf="@id/userImage"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/textUserBloodGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserBloodGroup"
+            android:layout_toEndOf="@id/userImage"
+            android:textSize="16sp"
+            android:layout_marginStart="30dp"
+            android:layout_below="@id/textUserName"/>
+
+        <TextView
+            android:id="@+id/textUserDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserDetail"
+            android:layout_toEndOf="@id/userImage"
+            android:textSize="16sp"
+            android:layout_marginStart="30dp"
+            android:layout_below="@id/textUserBloodGroup"/>
+
+        <Button
+            android:id="@+id/buttonContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/textUserDetail"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Contact"/>
+
+</RelativeLayout>

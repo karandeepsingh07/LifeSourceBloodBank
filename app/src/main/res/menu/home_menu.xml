@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/btnLogout"
+        android:title="LogOut"/>
+    <item android:id="@+id/btnRefer"
+        android:title="Refer app"/>
+    <item android:id="@+id/btnDelBloodDon"
+        android:title="Delete Blood Donation Appeal"/>
+</menu>

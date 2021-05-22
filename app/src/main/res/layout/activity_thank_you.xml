@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThankYouActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/appicon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_main"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:layout_below="@id/appicon"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/hearticon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/heart_icon"
+        android:layout_marginTop="15dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="Thank you for Donating Your Blood"
+        android:layout_below="@id/hearticon"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/buttonDash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="25dp"
+        android:text="Dashboard"/>
+
+</RelativeLayout>

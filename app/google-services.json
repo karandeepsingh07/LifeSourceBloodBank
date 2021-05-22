@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "145753772548",
+    "firebase_url": "https://lifesource-blood-bank.firebaseio.com",
+    "project_id": "lifesource-blood-bank",
+    "storage_bucket": "lifesource-blood-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145753772548:android:57838f31f6a4cd6293db51",
+        "android_client_info": {
+          "package_name": "com.karandeep.lifesourcebloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145753772548-t8h5lahnb3ef58s1itfg1gu60kautl2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karandeep.lifesourcebloodbank",
+            "certificate_hash": "f3d1580536e2d152e8602471acbd23264bf27238"
+          }
+        },
+        {
+          "client_id": "145753772548-l54hlp5ljoi56l8i8n2m8oo179bk8n4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMuk5d0hlr6vTcwEl2TF0nfzUCNenQAy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145753772548-l54hlp5ljoi56l8i8n2m8oo179bk8n4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

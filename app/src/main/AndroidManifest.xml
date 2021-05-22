@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.capstone.lifesourcebloodbank">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_main"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_main"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ThankYouActivity"/>
+        <activity android:name=".FactDetail"/>
+        <activity android:name=".FactActivity"/>
+        <activity android:name=".AboutActivity"/>
+        <activity android:name=".DonateBlood"/>
+        <activity android:name=".MapsActivity"/>
+        <activity android:name=".FIndDonor"/>
+        <activity android:name=".SignupActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".ResetPasswordActivity"/>
+        <activity android:name=".HomeActivity"/>
+
+        <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+    </activity>
+    </application>
+
+</manifest>
